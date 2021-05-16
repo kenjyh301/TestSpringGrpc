@@ -1,8 +1,8 @@
 syntax="proto3";
 
 import "google/protobuf/empty.proto";
-package minh.project.GrpcClient.Grpc;
+package minh.project.Grpc;
 
 service test{
-  rpc test(google.protobuf.Empty) returns(google.protobuf.Empty);
+  rpc RPC1(google.protobuf.Empty) returns(google.protobuf.Empty);
 }
